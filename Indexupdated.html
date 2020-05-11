@@ -1,0 +1,182 @@
+<html lang="en"><head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+#row1
+{
+background-color: #4f653e;
+    color: aliceblue;
+
+}
+table {
+  font-family: arial, sans-serif;
+  font-size: smaller;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #abaab3;
+    text-align: left;
+    padding: 12px;
+    font-weight: bolder;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+</style>           
+                 
+        <style>  
+    h2{  margin-bottom: -6px;
+       left: 500px;
+    position: relative;
+   background-repeat: no-repeat;
+    padding: 5px;
+    border: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #fafafaf2;}  
+            p{font-size: 10px;}  
+       
+            .navbar {
+  overflow: hidden;
+  background-color: #6c7ae0;;;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.navbar a {
+  float: left;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+      </style>  
+	<title>Table V04</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+                                                                     <div class="navbar">
+       <a><img src="logo.jpg" alt="Trulli" width="70" height="53"></a>
+  <a href="#home">xxxx</a>
+  <a href="#home">xxxx</a>
+  <a href="#home">xxxx</a>
+  <a href="#home">xxxx</a>
+  <a href="#news">xxx</a>
+  <a href="#news">xxxxx</a>
+</div>
+
+ <h2 style="color: #f8f9faeb;text-align: center;font-weight: 900;font-size: xx-large;left: 850px;background-color: #6c7ae0;/* background-size: auto; */position: absolute;">Leader Board</h2>
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100 ver1 m-b-110">
+					<div class="table100-head">
+						
+                                                      <table>
+							<thead>
+							
+                                                                        <tr class="row100 head">
+									<th class="cell100 column1">Rank</th>
+									<th class="cell100 column2">Name</th>
+									<th class="cell100 column3">Time</th>
+									<th class="cell100 column4">Address</th>
+									<th class="cell100 column5">Price Award</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+
+					<div>
+						<table>
+							<tbody>
+								<tr class="row100 body">
+									<td class="cell100 column1">1.</td>
+									<td class="cell100 column2">Name</td>
+									<td class="cell100 column3">xx:xx</td>
+									<td class="cell100 column4"></td>
+									<td class="cell100 column5">Yes</td>
+								</tr>
+
+								<tr class="row100 body">
+									<td class="cell100 column1">2.</td>
+									<td class="cell100 column2">Name</td>
+									<td class="cell100 column3">XX:XX</td>
+									<td class="cell100 column4"></td>
+									<td class="cell100 column5">Yes</td>
+								</tr>
+
+								<tr class="row100 body">
+									<td class="cell100 column1">3.</td>
+									<td class="cell100 column2">Name</td>
+									<td class="cell100 column3">XX:XX</td>
+									<td class="cell100 column4"></td>
+									<td class="cell100 column5">No</td>
+								</tr>
+
+								<tr class="row100 body">
+									<td class="cell100 column1">4.</td>
+									<td class="cell100 column2">Name</td>
+									<td class="cell100 column3">XX:XX</td>
+									<td class="cell100 column4"></td>
+									<td class="cell100 column5">No</td>
+								</tr>
+
+								
+							</tbody>
+						</table>
+					<div class="ps__rail-x" style="left: 0px; bottom: -604px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 604px; height: 585px; right: 5px;"><div class="ps__thumb-y" tabindex="0" style="top: 298px; height: 287px;"></div></div></div>
+				</div>
+				</div>
+		</div>
+	</div>
+
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function(){
+			var ps = new PerfectScrollbar(this);
+
+			$(window).on('resize', function(){
+				ps.update();
+			})
+		});
+			
+		
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+
+</body></html>
